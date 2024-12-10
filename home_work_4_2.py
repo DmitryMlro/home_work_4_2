@@ -6,4 +6,4 @@ if not my_list_1:
     print("Список порожній")
 else:
     print("Список з парними індексами:", my_list_2, "помножений на останній індекс", my_list_1[-1])
-    print("Відповідь: ", sum(my_list_2 * my_list_1[-1]))
+    print("Відповідь:", sum(my_list_2 * my_list_1[-1]))
